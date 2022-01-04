@@ -209,6 +209,55 @@ The average scores are as follows:
 To be noticed, EDSR results in a great accuracy. 
 However, due to the great size of its network, it also spent a lot of time than the others.
 
+
+\subsection{Visualization}
+If the scores are not familiar, some visual results can bring a more intuitive understanding.
+\begin{figure}[H]
+    \centering
+    \subfigure[Origin]{
+    \begin{minipage}[t]{0.3\linewidth}
+    \centering
+    \includegraphics[width=1in]{images/plant_origin.png}
+    \end{minipage}
+    }
+    \subfigure[Bicubic]{
+    \begin{minipage}[t]{0.3\linewidth}
+    \centering
+    \includegraphics[width=1in]{images/plant_bicubic.png}
+    \end{minipage}
+    }
+    \subfigure[EDSR]{
+    \begin{minipage}[t]{0.3\linewidth}
+    \centering
+    \includegraphics[width=1in]{images/plant_EDSR.png}
+    \end{minipage}
+    }
+
+    \subfigure[ESPCN]{
+    \begin{minipage}[t]{0.3\linewidth}
+    \centering
+    \includegraphics[width=1in]{images/plant_ESPCN.png}
+    \end{minipage}
+    }
+    \subfigure[FSRCNN]{
+    \begin{minipage}[t]{0.3\linewidth}
+    \centering
+    \includegraphics[width=1in]{images/plant_FSRCNN.png}
+    \end{minipage}
+    }
+    \subfigure[LapSRN]{
+    \begin{minipage}[t]{0.3\linewidth}
+    \centering
+    \includegraphics[width=1in]{images/plant_LapSRN.png}
+    \end{minipage}
+    }
+    \caption{Restoration from aliased compression}
+\end{figure}
+From the result above, we can tell that the model is useful for dealing with aliasing.
+Aliasing is a normal consequence when pictures are compressed into a lower resolution.
+The bicubic interpolation can't do well with this situation, 
+but the rest four methods can smoothen the images to be more realistic.
+
 \section{Conclusion}
 
 {\small
