@@ -1,0 +1,52 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{6}
+Dong, C., Loy, C.C., He, K., Tang, and X.
+\newblock Learning a deep convolutional network for image super-resolution,
+  2014.
+
+\bibitem{4}
+C. Dong, C.~C. Loy, , and X. Tang.
+\newblock Accelerating the super-resolution convolutional neural network, 2017.
+
+\bibitem{1}
+C. Dong, C.~C. Loy, and X. Tang.
+\newblock Accelerating the super-resolution convolutional neural network, 2016.
+
+\bibitem{7}
+K. He, X. Zhang, S. Ren, and J. Sun.
+\newblock Deep residual learning for image recognition, 2016.
+
+\bibitem{3}
+W.-S. Lai, J.-B. Huang, N. Ahuja, and M.-H. Yang.
+\newblock Deep laplacian pyramid networks for fast and accurate
+  superresolution, 2017.
+
+\bibitem{8}
+Ledig, C., Theis, L., Husz'ar, F., Caballero, J., Cunningham, A., Acosta, A.,
+  Aitken, A., Tejani, A., Totz, J., Wang, Z., and et al.
+\newblock Photo-realistic single image superresolution using a generative
+  adversarial network, 2017.
+
+\bibitem{2}
+W. Shi, J. Caballero, F. Huszar, J. Totz, A. Aitken, R. Bishop, D. Rueckert,
+  and Z. Wang.
+\newblock Real-time single image and video super-resolution using an efficient
+  sub-pixel convolutional neural network, 2016.
+
+\bibitem{10}
+T. Wang, W. Sun, H. Qi, and P. Ren.
+\newblock Aerial image super resolution via wavelet multiscale convolutional
+  neural networks, 2018.
+
+\bibitem{5}
+Xintao Wang, Liangbin Xie, Chao Dong, and Ying Shan.
+\newblock Real-esrgan: Training real-world blind super-resolution with pure
+  synthetic data, 2021.
+
+\bibitem{9}
+D. Yang, Z. Li, Y. Xia, and Z. Chen.
+\newblock Remote sensing image super-resolution: Challenges and approaches,
+  2015.
+
+\end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.23)  4 JAN 2022 23:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.23)  5 JAN 2022 17:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -378,133 +378,223 @@ File: omspcr.fd
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
-<images/FSRCNN.png, id=4, 555.07375pt x 210.7875pt>
+<images/building.jpg, id=13, 474.77374pt x 377.41pt>
+File: images/building.jpg Graphic file (type jpg)
+<use images/building.jpg>
+Package pdftex.def Info: images/building.jpg  used on input line 117.
+(pdftex.def)             Requested size: 86.72377pt x 68.93866pt.
+<images/building_out.jpg, id=14, 1899.095pt x 1509.64pt>
+File: images/building_out.jpg Graphic file (type jpg)
+<use images/building_out.jpg>
+Package pdftex.def Info: images/building_out.jpg  used on input line 123.
+(pdftex.def)             Requested size: 86.72377pt x 68.92137pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+<images/FSRCNN.png, id=39, 555.07375pt x 210.7875pt>
 File: images/FSRCNN.png Graphic file (type png)
 <use images/FSRCNN.png>
-Package pdftex.def Info: images/FSRCNN.png  used on input line 86.
+Package pdftex.def Info: images/FSRCNN.png  used on input line 148.
 (pdftex.def)             Requested size: 222.02556pt x 84.3135pt.
-<images/ESPCN.png, id=5, 555.07375pt x 138.5175pt>
-File: images/ESPCN.png Graphic file (type png)
-<use images/ESPCN.png>
-Package pdftex.def Info: images/ESPCN.png  used on input line 97.
-(pdftex.def)             Requested size: 222.02556pt x 55.406pt.
-<images/LapSRN.png, id=6, 555.07375pt x 406.51875pt>
-File: images/LapSRN.png Graphic file (type png)
-<use images/LapSRN.png>
-Package pdftex.def Info: images/LapSRN.png  used on input line 108.
-(pdftex.def)             Requested size: 222.02556pt x 162.60461pt.
-
-Underfull \hbox (badness 2538) in paragraph at lines 104--110
-[]\OT1/ptm/m/n/10 LapSRN's full name is Lapla-cian Pyra-mid Super-
- []
-
-[1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <./images/FSRCNN.png (PNG copy)> <./images/ESPCN.png (PNG copy)>]
-<images/EDSR1.png, id=30, 257.96375pt x 183.68625pt>
-File: images/EDSR1.png Graphic file (type png)
-<use images/EDSR1.png>
-Package pdftex.def Info: images/EDSR1.png  used on input line 123.
-(pdftex.def)             Requested size: 154.77943pt x 110.21259pt.
-<images/EDSR2.png, id=31, 275.0275pt x 189.70876pt>
-File: images/EDSR2.png Graphic file (type png)
-<use images/EDSR2.png>
-Package pdftex.def Info: images/EDSR2.png  used on input line 128.
-(pdftex.def)             Requested size: 165.01776pt x 113.82613pt.
-
-Underfull \vbox (badness 2799) has occurred while \output is active []
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 148.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 156.
  (c:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<images/PSNR.png, id=36, 758.835pt x 540.51938pt>
+<images/ESPCN.png, id=42, 555.07375pt x 138.5175pt>
+File: images/ESPCN.png Graphic file (type png)
+<use images/ESPCN.png>
+Package pdftex.def Info: images/ESPCN.png  used on input line 169.
+(pdftex.def)             Requested size: 222.02556pt x 55.406pt.
+<images/LapSRN.png, id=44, 555.07375pt x 406.51875pt>
+File: images/LapSRN.png Graphic file (type png)
+<use images/LapSRN.png>
+Package pdftex.def Info: images/LapSRN.png  used on input line 184.
+(pdftex.def)             Requested size: 222.02556pt x 162.60461pt.
+
+Underfull \hbox (badness 2538) in paragraph at lines 180--186
+[]\OT1/ptm/m/n/10 LapSRN's full name is Lapla-cian Pyra-mid Super-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./images/building.jpg> <./images/building_out.jpg> <./images/FSRCNN.png (PNG copy)> <./images/ESPCN.png (PNG copy)>]
+<images/EDSR1.png, id=65, 257.96375pt x 183.68625pt>
+File: images/EDSR1.png Graphic file (type png)
+<use images/EDSR1.png>
+Package pdftex.def Info: images/EDSR1.png  used on input line 204.
+(pdftex.def)             Requested size: 154.77943pt x 110.21259pt.
+<images/EDSR2.png, id=66, 275.0275pt x 189.70876pt>
+File: images/EDSR2.png Graphic file (type png)
+<use images/EDSR2.png>
+Package pdftex.def Info: images/EDSR2.png  used on input line 209.
+(pdftex.def)             Requested size: 165.01776pt x 113.82613pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./images/LapSRN.png (PNG copy)> <./images/EDSR1.png (PNG copy)> <./images/EDSR2.png (PNG copy)>]
+<images/PSNR.png, id=86, 758.835pt x 540.51938pt>
 File: images/PSNR.png Graphic file (type png)
 <use images/PSNR.png>
-Package pdftex.def Info: images/PSNR.png  used on input line 164.
+Package pdftex.def Info: images/PSNR.png  used on input line 249.
 (pdftex.def)             Requested size: 227.65225pt x 162.15706pt.
- [2 <./images/LapSRN.png (PNG copy)> <./images/EDSR1.png (PNG copy)> <./images/EDSR2.png (PNG copy)>]
-<images/SSIM.png, id=51, 991.45406pt x 441.90094pt>
+<images/SSIM.png, id=87, 991.45406pt x 441.90094pt>
 File: images/SSIM.png Graphic file (type png)
 <use images/SSIM.png>
-Package pdftex.def Info: images/SSIM.png  used on input line 181.
+Package pdftex.def Info: images/SSIM.png  used on input line 266.
 (pdftex.def)             Requested size: 198.2873pt x 88.37862pt.
-<images/plant_origin.png, id=53, 401.5pt x 401.5pt>
+<images/plant_origin.png, id=90, 401.5pt x 401.5pt>
 File: images/plant_origin.png Graphic file (type png)
 <use images/plant_origin.png>
-Package pdftex.def Info: images/plant_origin.png  used on input line 222.
+Package pdftex.def Info: images/plant_origin.png  used on input line 323.
 (pdftex.def)             Requested size: 72.26999pt x 72.26688pt.
 
-Overfull \hbox (1.1285pt too wide) in paragraph at lines 222--222
+Overfull \hbox (1.1285pt too wide) in paragraph at lines 323--323
  [][] 
  []
 
-<images/plant_bicubic.png, id=54, 401.5pt x 401.5pt>
+<images/plant_bicubic.png, id=91, 401.5pt x 401.5pt>
 File: images/plant_bicubic.png Graphic file (type png)
 <use images/plant_bicubic.png>
-Package pdftex.def Info: images/plant_bicubic.png  used on input line 228.
+Package pdftex.def Info: images/plant_bicubic.png  used on input line 329.
 (pdftex.def)             Requested size: 72.26999pt x 72.26688pt.
 
-Overfull \hbox (1.1285pt too wide) in paragraph at lines 228--228
+Overfull \hbox (1.1285pt too wide) in paragraph at lines 329--329
  [][] 
  []
 
-<images/plant_EDSR.png, id=55, 401.5pt x 401.5pt>
+<images/plant_EDSR.png, id=92, 401.5pt x 401.5pt>
 File: images/plant_EDSR.png Graphic file (type png)
 <use images/plant_EDSR.png>
-Package pdftex.def Info: images/plant_EDSR.png  used on input line 234.
+Package pdftex.def Info: images/plant_EDSR.png  used on input line 335.
 (pdftex.def)             Requested size: 72.26999pt x 72.26688pt.
 
-Overfull \hbox (1.1285pt too wide) in paragraph at lines 234--234
+Overfull \hbox (1.1285pt too wide) in paragraph at lines 335--335
  [][] 
  []
 
-<images/plant_ESPCN.png, id=56, 401.5pt x 401.5pt>
+<images/plant_ESPCN.png, id=93, 401.5pt x 401.5pt>
 File: images/plant_ESPCN.png Graphic file (type png)
 <use images/plant_ESPCN.png>
-Package pdftex.def Info: images/plant_ESPCN.png  used on input line 241.
+Package pdftex.def Info: images/plant_ESPCN.png  used on input line 342.
 (pdftex.def)             Requested size: 72.26999pt x 72.26688pt.
 
-Overfull \hbox (1.1285pt too wide) in paragraph at lines 241--241
+Overfull \hbox (1.1285pt too wide) in paragraph at lines 342--342
  [][] 
  []
 
-<images/plant_FSRCNN.png, id=57, 401.5pt x 401.5pt>
+<images/plant_FSRCNN.png, id=94, 401.5pt x 401.5pt>
 File: images/plant_FSRCNN.png Graphic file (type png)
 <use images/plant_FSRCNN.png>
-Package pdftex.def Info: images/plant_FSRCNN.png  used on input line 247.
+Package pdftex.def Info: images/plant_FSRCNN.png  used on input line 348.
 (pdftex.def)             Requested size: 72.26999pt x 72.26688pt.
 
-Overfull \hbox (1.1285pt too wide) in paragraph at lines 247--247
+Overfull \hbox (1.1285pt too wide) in paragraph at lines 348--348
  [][] 
  []
 
-<images/plant_LapSRN.png, id=58, 401.5pt x 401.5pt>
+<images/plant_LapSRN.png, id=95, 401.5pt x 401.5pt>
 File: images/plant_LapSRN.png Graphic file (type png)
 <use images/plant_LapSRN.png>
-Package pdftex.def Info: images/plant_LapSRN.png  used on input line 253.
+Package pdftex.def Info: images/plant_LapSRN.png  used on input line 354.
 (pdftex.def)             Requested size: 72.26999pt x 72.26688pt.
 
-Overfull \hbox (1.1285pt too wide) in paragraph at lines 253--253
+Overfull \hbox (1.1285pt too wide) in paragraph at lines 354--354
  [][] 
  []
 
-No file report.bbl.
-[3 <./images/PSNR.png> <./images/SSIM.png> <./images/plant_origin.png (PNG copy)> <./images/plant_bicubic.png (PNG copy)> <./images/plant_EDSR.png (PNG copy)> <./images/plant_ESPCN.png (PNG copy)> <./images/plant_FSRCNN.png (PNG copy)> <./images/plant_LapSRN.png (PNG copy)>] (./report.aux) ) 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./images/PSNR.png> <./images/SSIM.png>]
+<images/rs_LR.png, id=107, 64.24pt x 64.24pt>
+File: images/rs_LR.png Graphic file (type png)
+<use images/rs_LR.png>
+Package pdftex.def Info: images/rs_LR.png  used on input line 367.
+(pdftex.def)             Requested size: 72.26999pt x 72.2757pt.
+<images/rs_origin.png, id=108, 256.96pt x 256.96pt>
+File: images/rs_origin.png Graphic file (type png)
+<use images/rs_origin.png>
+Package pdftex.def Info: images/rs_origin.png  used on input line 380.
+(pdftex.def)             Requested size: 72.26999pt x 72.26982pt.
+
+Overfull \hbox (1.1285pt too wide) in paragraph at lines 380--380
+ [][] 
+ []
+
+<images/rs_bicubic.png, id=109, 256.96pt x 256.96pt>
+File: images/rs_bicubic.png Graphic file (type png)
+<use images/rs_bicubic.png>
+Package pdftex.def Info: images/rs_bicubic.png  used on input line 386.
+(pdftex.def)             Requested size: 72.26999pt x 72.26982pt.
+
+Overfull \hbox (1.1285pt too wide) in paragraph at lines 386--386
+ [][] 
+ []
+
+<images/rs_EDSR.png, id=110, 256.96pt x 256.96pt>
+File: images/rs_EDSR.png Graphic file (type png)
+<use images/rs_EDSR.png>
+Package pdftex.def Info: images/rs_EDSR.png  used on input line 392.
+(pdftex.def)             Requested size: 72.26999pt x 72.26982pt.
+
+Overfull \hbox (1.1285pt too wide) in paragraph at lines 392--392
+ [][] 
+ []
+
+<images/rs_ESPCN.png, id=111, 256.96pt x 256.96pt>
+File: images/rs_ESPCN.png Graphic file (type png)
+<use images/rs_ESPCN.png>
+Package pdftex.def Info: images/rs_ESPCN.png  used on input line 399.
+(pdftex.def)             Requested size: 72.26999pt x 72.26982pt.
+
+Overfull \hbox (1.1285pt too wide) in paragraph at lines 399--399
+ [][] 
+ []
+
+<images/rs_FSRCNN.png, id=112, 256.96pt x 256.96pt>
+File: images/rs_FSRCNN.png Graphic file (type png)
+<use images/rs_FSRCNN.png>
+Package pdftex.def Info: images/rs_FSRCNN.png  used on input line 405.
+(pdftex.def)             Requested size: 72.26999pt x 72.26982pt.
+
+Overfull \hbox (1.1285pt too wide) in paragraph at lines 405--405
+ [][] 
+ []
+
+<images/rs_LapSRN.png, id=113, 256.96pt x 256.96pt>
+File: images/rs_LapSRN.png Graphic file (type png)
+<use images/rs_LapSRN.png>
+Package pdftex.def Info: images/rs_LapSRN.png  used on input line 411.
+(pdftex.def)             Requested size: 72.26999pt x 72.26982pt.
+
+Overfull \hbox (1.1285pt too wide) in paragraph at lines 411--411
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ (./report.bbl [5 <./images/plant_origin.png (PNG copy)> <./images/plant_bicubic.png (PNG copy)> <./images/plant_EDSR.png (PNG copy)> <./images/plant_ESPCN.png (PNG copy)> <./images/plant_FSRCNN.png (PNG copy)> <./images/plant_LapSRN.png (PNG copy)> <./images/rs_LR.png (PNG copy)> <./images/rs_origin.png (PNG copy)> <./images/rs_bicubic.png (PNG copy)> <./images/rs_EDSR.png (PNG copy)> <./images/rs_ESPCN.png (PNG copy)> <./images/rs_FSRCNN.png (PNG copy)> <./images/rs_LapSRN.png (PNG copy)>]) [6
+
+] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 10939 strings out of 478994
- 156800 string characters out of 5862207
- 642854 words of memory out of 5000000
- 28193 multiletter control sequences out of 15000+600000
+ 11032 strings out of 478994
+ 158253 string characters out of 5862207
+ 646854 words of memory out of 5000000
+ 28248 multiletter control sequences out of 15000+600000
  426788 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,10n,88p,561b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,10n,88p,263b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (3 pages, 2139105 bytes).
+Output written on report.pdf (6 pages, 4952277 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 36 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
