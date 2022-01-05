@@ -1,0 +1,781 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.23)  5 JAN 2022 18:39
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**report
+(./report.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(c:/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (./neurips_2021.sty
+Package: neurips_2021 2021/03/31 NeurIPS 2021 submission/camera-ready style file
+ (c:/texlive/2021/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (c:/texlive/2021/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks15
+) (c:/texlive/2021/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count187
+\output=\toks16
+\linenoprevgraf=\count188
+\linenumbersep=\dimen139
+\linenumberwidth=\dimen140
+\c@linenumber=\count189
+\c@pagewiselinenumber=\count190
+\c@LN@truepage=\count191
+\c@internallinenumber=\count192
+\c@internallinenumbers=\count193
+\quotelinenumbersep=\dimen141
+\bframerule=\dimen142
+\bframesep=\dimen143
+\bframebox=\box47
+LaTeX Info: Redefining \\ on input line 3056.
+) (c:/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count194
+) (c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks18
+)
+\@neuripsabovecaptionskip=\skip51
+\@neuripsbelowcaptionskip=\skip52
+) (c:/texlive/2021/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+)
+\epsfxsize=\dimen154
+\epsfysize=\dimen155
+) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen156
+)) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen157
+) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count198
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count199
+\leftroot@=\count266
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count267
+\DOTSCASE@=\count268
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box48
+\strutbox@=\box49
+\big@size=\dimen158
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count269
+\c@MaxMatrixCols=\count270
+\dotsspace@=\muskip16
+\c@parentequation=\count271
+\dspbrk@lvl=\count272
+\tag@help=\toks20
+\row@=\count273
+\column@=\count274
+\maxfields@=\count275
+\andhelp@=\toks21
+\eqnshift@=\dimen159
+\alignsep@=\dimen160
+\tagshift@=\dimen161
+\tagwidth@=\dimen162
+\totwidth@=\dimen163
+\lineht@=\dimen164
+\@envbody=\toks22
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (c:/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count276
+\lst@gtempboxa=\box50
+\lst@token=\toks24
+\lst@length=\count277
+\lst@currlwidth=\dimen165
+\lst@column=\count278
+\lst@pos=\count279
+\lst@lostspace=\dimen166
+\lst@width=\dimen167
+\lst@newlines=\count280
+\lst@lineno=\count281
+\lst@maxwidth=\dimen168
+ (c:/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count282
+\lst@skipnumbers=\count283
+\lst@framebox=\box51
+) (c:/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (c:/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count284
+\float@exts=\toks25
+\float@box=\box52
+\@float@everytoks=\toks26
+\@floatcapt=\box53
+) (c:/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip56
+\subfigcapskip=\skip57
+\subfigcaptopadj=\dimen169
+\subfigbottomskip=\skip58
+\subfigcapmargin=\dimen170
+\subfiglabelskip=\skip59
+\c@subfigure=\count285
+\c@lofdepth=\count286
+\c@subtable=\count287
+\c@lotdepth=\count288
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip60
+\subfig@bottom=\skip61
+) (c:/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
+) (c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112.
+ (c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)) (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+ (c:/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (c:/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (c:/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (c:/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (c:/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (c:/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen171
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel languages
+) (c:/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (c:/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count291
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count292
+ (c:/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen172
+ (c:/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (c:/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count293
+\Field@Width=\dimen173
+\Fld@charsize=\dimen174
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+ (c:/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
+with kernel methods
+)
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+ (c:/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
+with kernel methods
+)
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
+ (c:/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip62
+) (c:/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen175
+\lightrulewidth=\dimen176
+\cmidrulewidth=\dimen177
+\belowrulesep=\dimen178
+\belowbottomsep=\dimen179
+\aboverulesep=\dimen180
+\abovetopsep=\dimen181
+\cmidrulesep=\dimen182
+\cmidrulekern=\dimen183
+\defaultaddspace=\dimen184
+\@cmidla=\count299
+\@cmidlb=\count300
+\@aboverulesep=\dimen185
+\@belowrulesep=\dimen186
+\@thisruleclass=\count301
+\@lastruleclass=\count302
+\@thisrulewidth=\dimen187
+) (c:/texlive/2021/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip63
+\L@UnitsRaiseTextstyle=\skip64
+\L@UnitsRaiseScriptstyle=\skip65
+ (c:/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)) (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
+\MT@toks=\toks29
+\MT@count=\count303
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen188
+LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
+\MT@listname@count=\count304
+ (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2021/03/14 v2.8c Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip66
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
+)) (c:/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count305
+\l__pdf_internal_box=\box54
+) (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: 
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 397.48499pt, 108.40501pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43pt, 72.27pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=397.48499pt
+* \textheight=650.43pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 397.48499pt, 108.40501pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43pt, 72.27pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=397.48499pt
+* \textheight=650.43pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count306
+\scratchdimen=\dimen189
+\scratchbox=\box55
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen190
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks31
+) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@lstlisting=\count312
+Package hyperref Info: Link coloring OFF on input line 75.
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count313
+)
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
+ (./report.out) (./report.out)
+\@outlinefile=\write3
+\openout3 = `report.out'.
+
+LaTeX Info: Redefining \microtypecontext on input line 75.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 75.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+) (c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 78.
+ (c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 84.
+ (c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 1097) in paragraph at lines 88--93
+\T1/ptm/m/n/10 (+20) Super-resolution(SR) is a tech-nol-ogy to re-store a high-resolution(HR) im-age from a low-
+ []
+
+
+Package natbib Warning: Citation `9' on page 1 undefined on input line 99.
+
+
+Package natbib Warning: Citation `10' on page 1 undefined on input line 103.
+
+
+Package natbib Warning: Citation `6' on page 1 undefined on input line 108.
+
+
+Package natbib Warning: Citation `1' on page 1 undefined on input line 109.
+
+
+Package natbib Warning: Citation `2' on page 1 undefined on input line 109.
+
+
+Package natbib Warning: Citation `3' on page 1 undefined on input line 110.
+
+
+Package natbib Warning: Citation `4' on page 1 undefined on input line 111.
+
+
+Package natbib Warning: Citation `7' on page 1 undefined on input line 111.
+
+[1
+
+
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `5' on page 2 undefined on input line 123.
+
+<images/building.jpg, id=73, 474.77374pt x 377.41pt>
+File: images/building.jpg Graphic file (type jpg)
+<use images/building.jpg>
+Package pdftex.def Info: images/building.jpg  used on input line 133.
+(pdftex.def)             Requested size: 86.72377pt x 68.93866pt.
+<images/building_out.jpg, id=74, 1899.095pt x 1509.64pt>
+File: images/building_out.jpg Graphic file (type jpg)
+<use images/building_out.jpg>
+Package pdftex.def Info: images/building_out.jpg  used on input line 139.
+(pdftex.def)             Requested size: 86.72377pt x 68.92137pt.
+
+Package natbib Warning: Citation `1' on page 2 undefined on input line 159.
+
+<images/FSRCNN.png, id=75, 555.07375pt x 210.7875pt>
+File: images/FSRCNN.png Graphic file (type png)
+<use images/FSRCNN.png>
+Package pdftex.def Info: images/FSRCNN.png  used on input line 164.
+(pdftex.def)             Requested size: 222.02556pt x 84.3135pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./images/building.jpg> <./images/building_out.jpg>]
+
+Package natbib Warning: Citation `6' on page 3 undefined on input line 167.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 172.
+(c:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+Package natbib Warning: Citation `2' on page 3 undefined on input line 182.
+
+<images/ESPCN.png, id=83, 555.07375pt x 138.5175pt>
+File: images/ESPCN.png Graphic file (type png)
+<use images/ESPCN.png>
+Package pdftex.def Info: images/ESPCN.png  used on input line 185.
+(pdftex.def)             Requested size: 222.02556pt x 55.406pt.
+
+Package natbib Warning: Citation `3' on page 3 undefined on input line 196.
+
+<images/LapSRN.png, id=84, 555.07375pt x 406.51875pt>
+File: images/LapSRN.png Graphic file (type png)
+<use images/LapSRN.png>
+Package pdftex.def Info: images/LapSRN.png  used on input line 200.
+(pdftex.def)             Requested size: 222.02556pt x 162.60461pt.
+
+Underfull \vbox (badness 6625) has occurred while \output is active []
+
+ [3 <./images/FSRCNN.png (PNG copy)> <./images/ESPCN.png (PNG copy)>]
+
+Package natbib Warning: Citation `7' on page 4 undefined on input line 209.
+
+
+Package natbib Warning: Citation `3' on page 4 undefined on input line 211.
+
+
+Package natbib Warning: Citation `8' on page 4 undefined on input line 216.
+
+
+Package natbib Warning: Citation `7' on page 4 undefined on input line 216.
+
+<images/EDSR1.png, id=93, 257.96375pt x 183.68625pt>
+File: images/EDSR1.png Graphic file (type png)
+<use images/EDSR1.png>
+Package pdftex.def Info: images/EDSR1.png  used on input line 220.
+(pdftex.def)             Requested size: 154.77943pt x 110.21259pt.
+<images/EDSR2.png, id=94, 275.0275pt x 189.70876pt>
+File: images/EDSR2.png Graphic file (type png)
+<use images/EDSR2.png>
+Package pdftex.def Info: images/EDSR2.png  used on input line 225.
+(pdftex.def)             Requested size: 165.01776pt x 113.82613pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./images/LapSRN.png (PNG copy)> <./images/EDSR1.png (PNG copy)>]
+
+Package natbib Warning: Citation `4' on page 5 undefined on input line 230.
+
+<images/PSNR.png, id=105, 758.835pt x 540.51938pt>
+File: images/PSNR.png Graphic file (type png)
+<use images/PSNR.png>
+Package pdftex.def Info: images/PSNR.png  used on input line 265.
+(pdftex.def)             Requested size: 227.65225pt x 162.15706pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./images/EDSR2.png (PNG copy)>]
+<images/SSIM.png, id=115, 991.45406pt x 441.90094pt>
+File: images/SSIM.png Graphic file (type png)
+<use images/SSIM.png>
+Package pdftex.def Info: images/SSIM.png  used on input line 282.
+(pdftex.def)             Requested size: 198.2873pt x 88.37862pt.
+
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
+ [6 <./images/PSNR.png> <./images/SSIM.png>]
+<images/plant_origin.png, id=124, 401.5pt x 401.5pt>
+File: images/plant_origin.png Graphic file (type png)
+<use images/plant_origin.png>
+Package pdftex.def Info: images/plant_origin.png  used on input line 339.
+(pdftex.def)             Requested size: 72.26999pt x 72.26688pt.
+<images/plant_bicubic.png, id=125, 401.5pt x 401.5pt>
+File: images/plant_bicubic.png Graphic file (type png)
+<use images/plant_bicubic.png>
+Package pdftex.def Info: images/plant_bicubic.png  used on input line 345.
+(pdftex.def)             Requested size: 72.26999pt x 72.26688pt.
+<images/plant_EDSR.png, id=126, 401.5pt x 401.5pt>
+File: images/plant_EDSR.png Graphic file (type png)
+<use images/plant_EDSR.png>
+Package pdftex.def Info: images/plant_EDSR.png  used on input line 351.
+(pdftex.def)             Requested size: 72.26999pt x 72.26688pt.
+<images/plant_ESPCN.png, id=127, 401.5pt x 401.5pt>
+File: images/plant_ESPCN.png Graphic file (type png)
+<use images/plant_ESPCN.png>
+Package pdftex.def Info: images/plant_ESPCN.png  used on input line 358.
+(pdftex.def)             Requested size: 72.26999pt x 72.26688pt.
+<images/plant_FSRCNN.png, id=128, 401.5pt x 401.5pt>
+File: images/plant_FSRCNN.png Graphic file (type png)
+<use images/plant_FSRCNN.png>
+Package pdftex.def Info: images/plant_FSRCNN.png  used on input line 364.
+(pdftex.def)             Requested size: 72.26999pt x 72.26688pt.
+<images/plant_LapSRN.png, id=129, 401.5pt x 401.5pt>
+File: images/plant_LapSRN.png Graphic file (type png)
+<use images/plant_LapSRN.png>
+Package pdftex.def Info: images/plant_LapSRN.png  used on input line 370.
+(pdftex.def)             Requested size: 72.26999pt x 72.26688pt.
+<images/rs_LR.png, id=130, 64.24pt x 64.24pt>
+File: images/rs_LR.png Graphic file (type png)
+<use images/rs_LR.png>
+Package pdftex.def Info: images/rs_LR.png  used on input line 383.
+(pdftex.def)             Requested size: 72.26999pt x 72.2757pt.
+
+Underfull \vbox (badness 5260) has occurred while \output is active []
+
+ [7 <./images/plant_origin.png (PNG copy)> <./images/plant_bicubic.png (PNG copy)> <./images/plant_EDSR.png (PNG copy)> <./images/plant_ESPCN.png (PNG copy)> <./images/plant_FSRCNN.png (PNG copy)> <./images/plant_LapSRN.png (PNG copy)>]
+<images/rs_origin.png, id=145, 256.96pt x 256.96pt>
+File: images/rs_origin.png Graphic file (type png)
+<use images/rs_origin.png>
+Package pdftex.def Info: images/rs_origin.png  used on input line 396.
+(pdftex.def)             Requested size: 72.26999pt x 72.26982pt.
+<images/rs_bicubic.png, id=146, 256.96pt x 256.96pt>
+File: images/rs_bicubic.png Graphic file (type png)
+<use images/rs_bicubic.png>
+Package pdftex.def Info: images/rs_bicubic.png  used on input line 402.
+(pdftex.def)             Requested size: 72.26999pt x 72.26982pt.
+<images/rs_EDSR.png, id=147, 256.96pt x 256.96pt>
+File: images/rs_EDSR.png Graphic file (type png)
+<use images/rs_EDSR.png>
+Package pdftex.def Info: images/rs_EDSR.png  used on input line 408.
+(pdftex.def)             Requested size: 72.26999pt x 72.26982pt.
+<images/rs_ESPCN.png, id=148, 256.96pt x 256.96pt>
+File: images/rs_ESPCN.png Graphic file (type png)
+<use images/rs_ESPCN.png>
+Package pdftex.def Info: images/rs_ESPCN.png  used on input line 415.
+(pdftex.def)             Requested size: 72.26999pt x 72.26982pt.
+<images/rs_FSRCNN.png, id=149, 256.96pt x 256.96pt>
+File: images/rs_FSRCNN.png Graphic file (type png)
+<use images/rs_FSRCNN.png>
+Package pdftex.def Info: images/rs_FSRCNN.png  used on input line 421.
+(pdftex.def)             Requested size: 72.26999pt x 72.26982pt.
+<images/rs_LapSRN.png, id=150, 256.96pt x 256.96pt>
+File: images/rs_LapSRN.png Graphic file (type png)
+<use images/rs_LapSRN.png>
+Package pdftex.def Info: images/rs_LapSRN.png  used on input line 427.
+(pdftex.def)             Requested size: 72.26999pt x 72.26982pt.
+
+
+Package natbib Warning: There were undefined citations.
+
+[8 <./images/rs_LR.png (PNG copy)> <./images/rs_origin.png (PNG copy)> <./images/rs_bicubic.png (PNG copy)> <./images/rs_EDSR.png (PNG copy)> <./images/rs_ESPCN.png (PNG copy)> <./images/rs_FSRCNN.png (PNG copy)> <./images/rs_LapSRN.png (PNG copy)>] (./report.aux)
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 0D165286519F8262C42D5747366E2BCF;1531.
+ ) 
+Here is how much of TeX's memory you used:
+ 14454 strings out of 478994
+ 210774 string characters out of 5862207
+ 553798 words of memory out of 5000000
+ 31479 multiletter control sequences out of 15000+600000
+ 433854 words of font info for 149 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,10n,88p,275b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on report.pdf (8 pages, 4936350 bytes).
+PDF statistics:
+ 206 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 35047 words of extra memory for PDF output out of 35830 (max. 10000000)
+
