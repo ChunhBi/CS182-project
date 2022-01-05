@@ -411,12 +411,13 @@ The result after the models are:
     }
     \caption{Restoration from aliased compression}
 \end{figure}
-We can tell that there are great differences between the raw image and the restored ones.
-Also, different algorithms carried out difference results, but generally the CNN ones tend to smoothen the image.
-The smoothened images have more clear edge representations and are easier to distinguish building.
-Some high frequency details are omitted, which are not important. The low frequency components are kept in the results.
-
-\section{Conclusion}
+\subsubsection*{Conclusion}
+CNN methods can deal with aliasing effect, which is mentioned above.
+From the visual results, we can also tell that there are information differences between the ground truth image and the restored ones.
+Although different algorithms carried out difference results, CNN methods generally tend to smoothen the image.
+The smoothened images have more clear edge representations and the building blocks are generally more clear, with fewer details and more regular shapes.
+Some high frequency details are omitted, which are not important here, and the low frequency components are kept in the results.
+The filtering ability makes CNN a better solution in some cases of usage.
 
 {\small
 \bibliographystyle{ieee_fullname}
