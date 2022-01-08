@@ -1,5 +1,0 @@
-https://learnopencv.com/super-resolution-in-opencv/#sec3
-教程
-https://bleedai.com/super-resolution-going-from-3x-to-8x-resolution-in-opencv/
-模型下载
->

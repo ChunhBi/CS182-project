@@ -43,12 +43,12 @@
 \end{abstract}
 
 \section{Introduction}
-Super-resolution(SR) technology is a technology to restore a high-resolution(HR) picture from a low-resolution(LR). 
-With the appearance of neural network, some new SR method based on deep neural network achieve better performance than traditional algorithm. 
+Super-resolution(SR) is a technology to restore a high-resolution(HR) picture from a low-resolution(LR). 
+With the appearance of neural network, some new SR methods based on deep neural network achieve better performance than traditional algorithms. 
 Thus, SR is followed with interests in many fields, one typical field is remote sensing. 
 Quality of remote sensing images is inevitably affected by accuracy of current sensors and complex atmospheric conditions. 
 Neural network based super-resolution technology, although not so mature for now, have potential to help solve these problems. 
-In our project, we will test and compare some cutting-edge network algorithms on super-resolution of remote sensing image. 
+In our project, we will test and compare some cutting-edge network algorithms on super-resolution of remote sensing images. 
   
 \section{Related Work}
   Since the appearance of SRCNN $[6]$, many achievements on combination of SR and neural network has been made by researchers. 
@@ -67,18 +67,18 @@ In our project, we will test and compare some cutting-edge network algorithms on
   FSRCNN$[1]$ is accelerated version of SRCNN$[6]$, 
   which directly take LR images as the input and conducts upsampling by the deconvolution layer at the end of the net work instead of upscales LR images before entering the network. 
   This change leads to 2 main difference: 1. Directly, no need to cost time carrying out Bicubic operation. 
-  2. Conv operation on LR image is less costly, With less computational complexity, 
+  2. Conv operation on LR images is less costly, With less computational complexity, 
   FSRCNN can support a deeper network and achieve a better effect.
   
-  FSRCNN take PReLU as the activation function and L2 as loss.
+  FSRCNN takes PReLU as the activation function and L2 as loss.
 
 
   \subsection{ESPCN}
   ESPCN$[2]$ is also motivated by SRCNN$[6]$, like FSRCNN$[1]$, 
   ESPCN takes LR images as the input and have low computational complexity. 
-  And ESPCN have an efficient sub-pixel convolution layer for learn.
+  And ESPCN has an efficient sub-pixel convolution layer for learn.
   
-  ESPCN take $tanh()$ as activation function and L2 as loss.
+  ESPCN takes $tanh()$ as activation function and L2 as loss.
 
   \begin{figure}[H]
     \begin{minipage}[H]{0.5\linewidth}
@@ -97,16 +97,16 @@ In our project, we will test and compare some cutting-edge network algorithms on
 
   \subsection{LapSRN}
   LapSRN$[3]$ has multiple-level structure. Every level conducts a 2x upscaling on input 
-  image and output of previous level can be taken as input of next level. As a result LapSRN can support up to 8x upscaling. 
+  images and output of previous level can be taken as input of next level. As a result LapSRN can support up to 8x upscaling. 
   
-  LapSRN take L1 as loss, which is optimized at end of every level.
+  LapSRN takes L1 as loss, which is optimized at end of every level.
   
   \subsection{EDSR}
   The design of EDSR$[4]$ is based on the SRResNet$[8]$. 
   The author team remove the BN layers and achieve better performance and memory usage. 
   EDSR has won NTIRE2017 SR Challenge.
 
-  EDSR use L1 loss instead of L2, because author team find L1 loss provides better convergence.
+  EDSR uses L1 loss instead of L2, because author team find L1 loss provides better convergence.
   
   \begin{figure}[H]
     \begin{minipage}[H]{0.5\linewidth}
@@ -144,7 +144,7 @@ In our project, we will test and compare some cutting-edge network algorithms on
       \begin{align*}
           PSNR = 10log_{10}\frac{MaxValue^2}{MSE} = 10log_{10}\frac{255}{MSE}
       \end{align*}
-      Where MSE(Mean Squared Error) denotes the average power between the groundtruth and the result image.
+      Where MSE(Mean Squared Error) denotes the average power between the groundtruth and the result images.
   
       However, PSNR scores is not consistent to the quality human eye perceives, sometimes a higher PSNR score image may look worse.
       The reason is that human eye is not sensitive to high frequency noise, which is usually separately distributed. 
@@ -171,7 +171,7 @@ In our project, we will test and compare some cutting-edge network algorithms on
   NWPU VHR-10 data set is a challenging ten-class geospatial object detection data set, images of which are mostly come from remote sensing equipments. 
   For this, we randomly selected an area of size $256\times 256$ for each image to test.
   We first downsample the images to 1/4 size, and then use the model to generate images with origin resolution.
-  The evaluation result is calculated with the groundtruth image.
+  The evaluation results are calculated with the groundtruth images.
   The average scores are as follows:
 
   \begin{table}[H]
@@ -247,8 +247,8 @@ In our project, we will test and compare some cutting-edge network algorithms on
   We tested the models on such dataset. 
   Some visual results are shown here:
 
-  The LR image is generated from an HR one using nearest Neighbor method in opencv.
-  Then the image is considered as the input in the testing algorithms.
+  The LR images are generated from HR ones using nearest Neighbor method in opencv.
+  Then the images are considered as the input in the testing algorithms.
   The result after the models are:
   \begin{figure}[H]
       \centering
@@ -293,8 +293,8 @@ In our project, we will test and compare some cutting-edge network algorithms on
 
   \subsubsection*{Conclusion}
   CNN methods can deal with aliasing effect, which is mentioned above.
-  From the visual results, we can also tell that there are information differences between the ground truth image and the restored ones.
-  Although different algorithms carried out difference results, CNN methods generally tend to smoothen the image.
+  From the visual results, we can also tell that there are information differences between the ground truth images and the restored ones.
+  Although different algorithms carried out difference results, CNN methods generally tend to smoothen the images.
   The smoothened images have more clear edge representations and the building blocks are generally more clear, with fewer details and more regular shapes.
   Some high frequency details are omitted, which are not important here, and the low frequency components are kept in the results.
   The filtering ability makes CNN a better solution in some cases of usage.
