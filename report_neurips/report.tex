@@ -22,8 +22,7 @@
 \usepackage{xcolor}         % colors
 
 \title{Project of CS182 \\ 
-    Image Super Resolution \\
-    Application On Remote Sensing Dataset}
+    Image Super Resolution }
 
 \author{
     Bi Chunhao \\
@@ -46,7 +45,7 @@
 \section{Introduction}
 Super-resolution(SR) technology is a technology to restore a high-resolution(HR) picture from a low-resolution(LR). 
 With the appearance of neural network, some new SR method based on deep neural network achieve better performance than traditional algorithm. 
-Thus SR is followed with interest in many field, one typical field is remote sensing. 
+Thus, SR is followed with interests in many fields, one typical field is remote sensing. 
 Quality of remote sensing images is inevitably affected by accuracy of current sensors and complex atmospheric conditions. 
 Neural network based super-resolution technology, although not so mature for now, have potential to help solve these problems. 
 In our project, we will test and compare some cutting-edge network algorithms on super-resolution of remote sensing image. 
@@ -66,7 +65,7 @@ In our project, we will test and compare some cutting-edge network algorithms on
   
   \subsection{FSRCNN} 
   FSRCNN$[1]$ is accelerated version of SRCNN$[6]$, 
-  which directly take LR image as the input and conducts upsampling by the deconvolution layer at the end of the net work instead of upscales LR image before entering the network. 
+  which directly take LR images as the input and conducts upsampling by the deconvolution layer at the end of the net work instead of upscales LR images before entering the network. 
   This change leads to 2 main difference: 1. Directly, no need to cost time carrying out Bicubic operation. 
   2. Conv operation on LR image is less costly, With less computational complexity, 
   FSRCNN can support a deeper network and achieve a better effect.
@@ -76,8 +75,8 @@ In our project, we will test and compare some cutting-edge network algorithms on
 
   \subsection{ESPCN}
   ESPCN$[2]$ is also motivated by SRCNN$[6]$, like FSRCNN$[1]$, 
-  ESPCN takes LR image as the input and have low computational complexity. 
-  And ESPCN have a efficient sub-pixel convolution layer for learn.
+  ESPCN takes LR images as the input and have low computational complexity. 
+  And ESPCN have an efficient sub-pixel convolution layer for learn.
   
   ESPCN take $tanh()$ as activation function and L2 as loss.
 
@@ -97,7 +96,7 @@ In our project, we will test and compare some cutting-edge network algorithms on
 \end{figure}
 
   \subsection{LapSRN}
-  LapSRN$[3]$ has multiple-level structure. Every level onduct a 2x upscaling on input 
+  LapSRN$[3]$ has multiple-level structure. Every level conducts a 2x upscaling on input 
   image and output of previous level can be taken as input of next level. As a result LapSRN can support up to 8x upscaling. 
   
   LapSRN take L1 as loss, which is optimized at end of every level.
@@ -107,7 +106,7 @@ In our project, we will test and compare some cutting-edge network algorithms on
   The author team remove the BN layers and achieve better performance and memory usage. 
   EDSR has won NTIRE2017 SR Challenge.
 
-  EDSR use L1 loss instead of L2, because author team find L1 loss provides better conver-gence.
+  EDSR use L1 loss instead of L2, because author team find L1 loss provides better convergence.
   
   \begin{figure}[H]
     \begin{minipage}[H]{0.5\linewidth}
@@ -241,7 +240,7 @@ In our project, we will test and compare some cutting-edge network algorithms on
   The bicubic interpolation can't do well with this situation, 
   but the rest four CNN methods can smoothen the images to be more realistic.
   If the images compressed after Gaussian kernel convolution,
-  then the aliasing effect will be reduced, and thus there is no much difference between bicubic method and the others.
+  then the aliasing effect will be reduced, and thus there is not much difference between bicubic method and the others.
   In this case, bicubic method is better for its low time cost and quite good result.
   
   As for remote sensing image restoration.
@@ -312,11 +311,11 @@ In our project, we will test and compare some cutting-edge network algorithms on
 
 [5] Xintao Wang, Liangbin Xie, Chao Dong, and Ying Shan. Real-esrgan: Training real-world blind super-resolution with pure synthetic data. arXiv preprint arXiv:2107.10833, 2021.
 
-[6] Dong, C., Loy, C.C., He, K., Tang, X.: Learning a deep convolutional network for image super-resolution. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014, Part IV. LNCS, vol. 8692, pp. 184–199. Springer, Heidelberg (2014)
+[6] Dong, C., Loy, C.C., He, K., Tang, X.: Learning a deep convolutional network for image super-resolution. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014, Part IV. LNCS, vol. 8692, pp. 184-199. Springer, Heidelberg (2014)
 
 [7] K. He, X. Zhang, S. Ren, and J. Sun. Deep residual learning for image recognition. In CVPR, 2016.
 
-[8] Ledig, C., Theis, L., Husz´ar, F., Caballero, J., Cunningham, A., Acosta, A., Aitken, A., Tejani, A., Totz, J., Wang, Z., et al.: Photo-realistic single image superresolution using a generative adversarial network. In: CVPR (2017)
+[8] Ledig, C., Theis, L., Husz'ar, F., Caballero, J., Cunningham, A., Acosta, A., Aitken, A., Tejani, A., Totz, J., Wang, Z., et al.: Photo-realistic single image superresolution using a generative adversarial network. In: CVPR (2017)
 
 [9] D. Yang, Z. Li, Y. Xia and Z. Chen, “Remote sensing image super-resolution: Challenges and approaches,” 2015 IEEE International Conference on Digital Signal Processing (DSP), 2015, pp. 196-200, doi: 10.1109/ICDSP.2015.7251858.
 
